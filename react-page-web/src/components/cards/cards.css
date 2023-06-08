@@ -1,0 +1,5 @@
+.display-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);   /* Deux colonnes de largeur égale */
+  gap: 10px;   /* Espacement entre les éléments */
+}
