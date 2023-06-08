@@ -1,9 +1,30 @@
-import React from 'react'
+export default class Model{
+  id: number;
+  title: string;
+  description: string;
+  tag: string;
+  price: number;
+  sales: number;
+  downloads: number;
+  notation: number;
 
-const Model = () => {
-  return (
-    <div>Model</div>
-  )
+  constructor (
+    id: number,
+    title: string,
+    description: string,
+    tag: string,
+    price: number,
+    sales: number,
+    downloads: number,
+    notation: number
+    ){
+      this.id = id;
+      this.title = title;
+      this.description = description;
+      this.tag = tag;
+      this.price = price;
+      this.sales = sales;
+      this.downloads = downloads;
+      this.notation = notation;
+    }
 }
-
-export default Model
