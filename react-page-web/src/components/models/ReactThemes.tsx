@@ -1,4 +1,4 @@
-export default class Model{
+export default class ReactThemes{
   id: number;
   title: string;
   description: string;
