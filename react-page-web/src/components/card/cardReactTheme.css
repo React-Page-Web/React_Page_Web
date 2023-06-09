@@ -1,0 +1,26 @@
+.card-border {
+  border: 2px solid #333;
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  /*width: fit-content;   /* Largeur ajustée à la taille du contenu */
+  width: calc((100% - 10px) / 2);   /* Espace disponible réparti sur 2 colonnes avec espacement */
+  max-width: 100%;   /* Largeur maximale limitée si image trop grande */
+}
+
+.image {
+  width: fit-content;
+  height: auto;
+}
+
+.text-border {
+  text-align: left;
+  border: 2px solid #333;
+}
+
+.align-right-left {
+  display: flex;
+  justify-content: space-between;
+}
