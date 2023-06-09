@@ -1,6 +1,7 @@
 import { BsFillPersonFill } from 'react-icons/bs';
 import logo from './assets/logo.png';
 import "./styles/Style.css";
+import React from 'react';
 
 
 const Header = () => {
